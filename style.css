@@ -2,3 +2,8 @@ body {
     font-family: Roboto;
     display: flex;
 }
+
+.hero {
+    display: flex;
+    justify-content: space-between;
+}
