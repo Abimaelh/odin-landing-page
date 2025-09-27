@@ -12,6 +12,10 @@ ul {
 
 .hero {
     display: flex;
+    align-items: center;
     justify-content: space-between;
     background-color: #1F2937;
+    margin-bottom: 32px;
+    border-radius: 10px;
+
 }
