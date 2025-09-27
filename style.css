@@ -1,6 +1,6 @@
 body {
     font-family: Roboto;
-    display: flex;
+    color: white;
 }
 
 ul {
@@ -13,4 +13,5 @@ ul {
 .hero {
     display: flex;
     justify-content: space-between;
+    background-color: #1F2937;
 }
