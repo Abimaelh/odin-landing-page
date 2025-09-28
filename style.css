@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
 body {
     font-family: Roboto;
     color: white;
@@ -16,6 +18,11 @@ a {
     text-decoration: none;
     color: #E5E7EB
     /* Change Header Logo color */
+}
+
+.logo {
+    color: #f9faf8;
+    font-size: 24px;
 }
 
 .hero {
