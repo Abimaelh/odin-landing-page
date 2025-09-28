@@ -13,13 +13,13 @@ ul {
     list-style-type: none;
     margin: 0;
     padding: 0;
-    /* Need to change this for the other divs */
+    /* Need to change this for the other divs maybe a new container */
     gap: 16px;
 }
 
 a {
     text-decoration: none;
-    color: #E5E7EB
+    color: #E5E7EB;
     /* Change Header Logo color */
 }
 
@@ -39,10 +39,14 @@ a {
 
 .container {
     display: flex;
-    flex: 1;
-    align-items: center;
-    justify-content: center;
+    justify-content: space-around;
+    align-items: flex-end;
     flex-direction: column;
-    gap: 16px;
     background-color: #1F2937;
+    gap: 16px;
+}
+
+.image {
+    display: flex;
+    flex-shrink: 0;
 }
