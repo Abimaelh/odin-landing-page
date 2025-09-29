@@ -33,6 +33,7 @@ a {
     display: flex;
     background-color: #1F2937;
     padding: 16px;
+    flex-direction: column;
 }
 
 .hero-top {
