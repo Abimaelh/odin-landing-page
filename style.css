@@ -20,6 +20,7 @@ ul {
 h1 {
     font-size: 48px;
     margin: 0;
+    font-weight: 900;
 }
 
 a {
@@ -35,7 +36,8 @@ p {
 button.signup-hero {
     cursor: pointer;
     border-radius: 8px;
-    width: 20%;
+    padding: 8px 16px;
+    width: 100px;
     border: 1px solid royalblue;
     color: white;
     background: royalblue;
@@ -94,6 +96,8 @@ button.signup-hero {
 }
 
 .image {
-    display: flex;
-    flex-shrink: 0;
+    width: 400px;
+    height: 200px;
+    background-color: gray;
+    padding: 8px 16px;
 }
