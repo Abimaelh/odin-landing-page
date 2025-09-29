@@ -19,7 +19,6 @@ ul {
 
 h1 {
     font-size: 48px;
-    width: 40%;
     margin: 0;
 }
 
@@ -31,7 +30,6 @@ a {
 
 p {
     color: #E5E7EB;
-    width: 45%;
 }
 
 button.signup-hero {
@@ -86,7 +84,7 @@ button.signup-hero {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    width: 45%;
+    width: 20%;
 }
 
 .hero-bottom-right {
