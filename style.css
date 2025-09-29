@@ -37,15 +37,6 @@ a {
     align-items: flex-end;
 }
 
-.container {
-    display: flex;
-    justify-content: space-around;
-    align-items: flex-end;
-    flex-direction: column;
-    background-color: #1F2937;
-    gap: 16px;
-}
-
 .image {
     display: flex;
     flex-shrink: 0;
