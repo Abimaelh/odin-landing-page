@@ -55,7 +55,11 @@ button.signup-hero {
     padding: 16px;
     flex-direction: column;
     gap: 32px;
-    margin-bottom: 16px;
+}
+
+.hero-container {
+    max-width: auto;
+    margin: auto;
 }
 
 .hero-top {
@@ -86,7 +90,7 @@ button.signup-hero {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    width: 20%;
+    width: 30%;
 }
 
 .hero-bottom-right {
