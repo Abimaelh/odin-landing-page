@@ -99,5 +99,5 @@ button.signup-hero {
     width: 400px;
     height: 200px;
     background-color: gray;
-    padding: 8px 16px;
+    /* To do: place the text in the middle of the box" */
 }
