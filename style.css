@@ -31,10 +31,18 @@ a {
 
 .hero {
     display: flex;
-    justify-content: space-around;
     background-color: #1F2937;
     padding: 16px;
-    align-items: flex-end;
+}
+
+.lefthero {
+    display: flex;
+    justify-content: flex-start;
+}
+
+.righthero {
+    display: flex;
+    justify-content: flex-end;
 }
 
 .image {
