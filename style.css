@@ -68,6 +68,10 @@ a {
     justify-content: space-between;
 }
 
+h1 {
+    size: 48px;
+}
+
 .hero-bottom-right {
     display: flex;
     flex-direction: column;
