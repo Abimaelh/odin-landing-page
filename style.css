@@ -38,11 +38,37 @@ a {
 .hero-top {
     display: flex;
     justify-content: space-between;
+    align-items: center;
+}
+
+.hero-top-left {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.hero-top-right {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
 }
 
 .hero-bottom {
     display: flex;
-    justify-content: flex-end;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.hero-bottom-left {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.hero-bottom-right {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
 }
 
 .image {
