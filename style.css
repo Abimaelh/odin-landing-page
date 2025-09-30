@@ -116,11 +116,16 @@ button.signup-hero {
     gap: 32px;
 }
 
-.middle-top {
-
+.middle-bottom {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: auto;
 }
 
 .middle_header {
+    display: flex;
+    justify-content: center;
     color: #1F2937;
     font-weight: 900;
     font-size: 36px;
@@ -133,7 +138,14 @@ button.signup-hero {
 .square {
     width: 100px;
     height: 100px;
-    border: 2px royalblue;
+    border: 2px solid royalblue;
     border-radius: 15px;
     color: royalblue;
+}
+
+.info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 100px;
 }
