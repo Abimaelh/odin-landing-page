@@ -58,8 +58,8 @@ button.signup-hero {
 }
 
 .hero-container {
-    max-width: auto;
-    margin: auto;
+    max-width: 1100px;
+    margin: 0 auto;
 }
 
 .hero-top {
@@ -108,6 +108,11 @@ button.signup-hero {
     background-color: gray;
 }
 
+.middle-container {
+    max-width: 1100px;
+    margin: 0 auto;
+}
+
 .middle {
     display: flex;
     background-color: white;
@@ -118,9 +123,10 @@ button.signup-hero {
 
 .middle-bottom {
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     align-items: center;
     max-width: auto;
+    gap: 100px;
 }
 
 .middle_header {
@@ -133,12 +139,13 @@ button.signup-hero {
 
 .text {
     color: #b2b7bc;
+    text-align: center;
 }
 
 .square {
     width: 100px;
     height: 100px;
-    border: 2px solid royalblue;
+    border: 3px solid royalblue;
     border-radius: 15px;
     color: royalblue;
 }
@@ -148,4 +155,5 @@ button.signup-hero {
     flex-direction: column;
     align-items: center;
     max-width: 100px;
+    gap: 8px;
 }
