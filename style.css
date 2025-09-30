@@ -58,8 +58,11 @@ button.signup-hero {
 }
 
 .hero-container {
+    display: flex;
+    flex-direction: column;
     max-width: 1100px;
     margin: 0 auto;
+    gap: 50px;
 }
 
 .hero-top {
