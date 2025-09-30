@@ -166,3 +166,11 @@ button.signup-hero {
     max-width: 100px;
     gap: 8px;
 }
+
+.quote {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #E5E7EB;
+}
