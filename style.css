@@ -107,3 +107,25 @@ button.signup-hero {
     height: 200px;
     background-color: gray;
 }
+
+.middle {
+    display: flex;
+    background-color: white;
+    padding: 16px;
+    flex-direction: column;
+    gap: 32px;
+}
+
+.middle-top {
+
+}
+
+.middle_header {
+    color: #1F2937;
+    font-weight: 900;
+    font-size: 36px;
+}
+
+.text {
+    color: #b2b7bc;
+}
