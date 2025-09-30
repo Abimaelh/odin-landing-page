@@ -27,6 +27,7 @@ h2 {
     font-size: 36px;
     color: #1F2937;
     font-weight: 300;
+    font-style: italic;
 }
 
 h3 {
@@ -191,4 +192,8 @@ button.signup-hero {
 .quote-bottom {
     display: flex;
     justify-content: right;
+}
+
+.quote-top {
+    max-width: 800px;
 }
