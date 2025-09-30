@@ -129,3 +129,11 @@ button.signup-hero {
 .text {
     color: #b2b7bc;
 }
+
+.square {
+    width: 100px;
+    height: 100px;
+    border: 2px royalblue;
+    border-radius: 15px;
+    color: royalblue;
+}
