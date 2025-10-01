@@ -203,7 +203,6 @@ button.signup-hero {
     background-color: white;
     padding: 16px;
     flex-direction: column;
-    gap: 32px;
 }
 
 .top-cta {
@@ -214,6 +213,7 @@ button.signup-hero {
 .bottom-cta {
     display: flex;
     flex-direction: row;
+    justify-content: space-between;
 }
 
 .cta-container {
@@ -224,4 +224,14 @@ button.signup-hero {
     height: 50px;
     border-radius: 8px;
     padding: 8px 16px;
+}
+
+button.signup-cta {
+    cursor: pointer;
+    border-radius: 8px;
+    padding: 8px 16px;
+    width: 100px;
+    border: 1px solid white;
+    color: white;
+    background: #3882F6;
 }
